@@ -50,3 +50,53 @@ header {
     box-shadow: 0px 1px 2px 0px #00000014;
     box-shadow: 0px 3px 1px 0px #0000001A;
 }
+
+/* CARDS */
+.main_first--cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+
+.card {
+    border: 1px solid #EEEEEE;
+    max-width: 370px;
+}
+
+.card:hover {
+    box-shadow: 1px 4px 6px 0px #00000029;
+    box-shadow: 0px 4px 4px 0px #0000000F;
+    box-shadow: 0px 1px 1px 0px #0000001F;
+    cursor: pointer;
+}
+
+.card img {
+    width: 370px;
+}
+
+.card_title {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+
+    margin-top: 20px;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}
+
+.card_text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
