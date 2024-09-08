@@ -44,13 +44,21 @@
   border: 0;
   border-radius: 4px;
   background-color: #2196f3;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
   color: white;
+  transition: 0.3s;
+}
+
+.main_first--button:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #3377b0;
+  font-size: 19px;
 }
 
 .main_second--section {
