@@ -58,13 +58,3 @@ header {
     transition: 0.5s;
     color: #2196f3;
 }
-
-.header_rigthside--icon {
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.header_rigthside--icon:hover {
-    fill: #2196f3;
-    transition: 0.3s;
-}
