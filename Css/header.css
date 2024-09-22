@@ -25,7 +25,7 @@ header {
   
 .header_navigation--item a {
     transition: 0.5s;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
@@ -47,7 +47,7 @@ header {
   
 .header_rigthside a {
     transition: 0.5s;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
@@ -57,4 +57,15 @@ header {
 .header_rigthside a:hover {
     transition: 0.5s;
     color: #2196f3;
+}
+
+.header_icons {
+    fill: #757575;
+    transition: 0.3s;
+}
+
+.header_icons:hover {
+    fill: #2196F3;
+    transition: 0.3;
+    cursor: pointer;
 }
