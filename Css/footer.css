@@ -1,5 +1,10 @@
-.footer_container {
+footer {
     background: #2F303A;
+    display: flex;
+}
+
+/* footer first container*/
+.footer_first--container {
     padding: 60px 0 60px 0;
 }
   
@@ -36,4 +41,24 @@
     text-align: left;
     color: #FFFFFF99;
     margin-left: 215px;
+}
+
+/* footer second container */
+.footer_second--container {
+
+}
+
+.title5 {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer_icons {
+    fill: #FFFFFF;
 }

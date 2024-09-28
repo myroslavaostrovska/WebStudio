@@ -270,6 +270,14 @@
 }
 
 .icons {
+  fill: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px 4px 4px 4px;
+  transition: 0.3s;
+}
+
+.icons:hover {
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+  transition: 0.3s;
 }
