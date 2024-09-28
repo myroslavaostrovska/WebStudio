@@ -44,10 +44,6 @@ footer {
 }
 
 /* footer second container */
-.footer_second--container {
-
-}
-
 .title5 {
     font-family: "Roboto";
     font-size: 14px;
@@ -57,8 +53,20 @@ footer {
     text-align: left;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 72px;
+    padding-left: 70px;
+}
+
+.footer_icons--container {
+    display: flex;
+    max-width: 206px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 70px;
 }
 
 .footer_icons {
     fill: #FFFFFF;
 }
+
