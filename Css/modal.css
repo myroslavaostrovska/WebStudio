@@ -12,6 +12,10 @@
   opacity: 0;
 }
 
+.is-hidden {
+  display: none;
+}
+
 .modal {
   position: absolute;
   top: 50%;
