@@ -29,17 +29,18 @@
 }
 
 .modal_close--wrapper {
-    position: relative;
-    display: flex;
-    justify-content: end;
-    padding-top: 8px;
-    padding-bottom: 2px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  padding-top: 8px;
+  padding-bottom: 2px;
 }
 
 .modal_close {
-    position: relative;
-    top: 0;
-    left: 30px;
+  position: relative;
+  top: 0;
+  left: 30px;
+  cursor: pointer;
 }
 
 form {
@@ -146,10 +147,11 @@ form textarea::placeholder {
   text-align: center;
   color: white;
   border: 0;
+  cursor: pointer;
 }
 
 .form_btn--wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }

@@ -10,7 +10,6 @@ footer {
   
 .container_image {
     margin: 0 0 20px 215px;
-    cursor: pointer;
 }
   
 .address {
@@ -69,4 +68,3 @@ footer {
 .footer_icons {
     fill: #FFFFFF;
 }
-

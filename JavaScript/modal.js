@@ -18,10 +18,5 @@ openModalButton.addEventListener('click', openModal);
 
 // Event listener for the close button
 closeModalButton.addEventListener('click', closeModal);
+closeModalButton2.addEventListener('click', closeModal);
 
-// Close the modal when clicking outside of it (on the backdrop)
-modalBackdrop.addEventListener('click', (event) => {
-    if (event.target === modalBackdrop) {
-        closeModal();
-    }
-});
