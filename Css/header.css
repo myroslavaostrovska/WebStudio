@@ -44,6 +44,12 @@ header {
     margin-right: 50px;
 }
 
+.header_rigthside {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 .header_rigthside a:not(:last-child) {
     margin-right: 50px;
 }
@@ -71,4 +77,5 @@ header {
   color: #2196f3;
   fill: #2196f3 !important;
   transition: 0.5s;
+  cursor: pointer;
 }
