@@ -35,12 +35,15 @@ header {
 .header_navigation--item a:hover {
     transition: 0.5s;
     color: #2196f3;
+    border-radius: 2px;
+    border-bottom: 4px solid #2196F3;
+    padding-bottom: 28px;
 }
   
 .header_navigation--item:not(:last-child) {
     margin-right: 50px;
 }
- 
+
 .header_rigthside a:not(:last-child) {
     margin-right: 50px;
 }
@@ -53,11 +56,6 @@ header {
     line-height: 16.41px;
     letter-spacing: 0.02em;
 }
-  
-.header_rigthside a:hover {
-    transition: 0.5s;
-    color: #2196f3;
-}
 
 .header_icons {
     fill: #757575;
@@ -66,8 +64,11 @@ header {
     align-items: center;
 }
 
-.header_icons:hover {
-    fill: #2196F3;
-    transition: 0.3;
-    cursor: pointer;
+.header_rigthside--first:hover svg path,
+.header_rigthside--first:hover a,
+.header_rigthside--second:hover svg path,
+.header_rigthside--second:hover a {
+  color: #2196f3;
+  fill: #2196f3 !important;
+  transition: 0.5s;
 }
