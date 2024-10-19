@@ -308,4 +308,5 @@
   fill: #2196F3;
   border: 1px solid #2196F3;
   transition: 0.3s;
+  cursor: pointer;
 }
